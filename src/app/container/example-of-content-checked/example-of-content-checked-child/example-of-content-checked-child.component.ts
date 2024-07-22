@@ -9,15 +9,13 @@ export class ExampleOfContentCheckedChildComponent {
 
   @Input() name:string;
 
-  ngAfterContentChecked(): void {
-    //Called after every check of the component's or directive's content.
-    //Add 'implements AfterContentChecked' to the class.
+  ngAfterContentChecked(): void 
+  {
     console.log("data is chaneged");
   }
-  ngDoCheck(): void {
-    //Called every time that the input properties of a component or a directive are checked. Use it to extend change detection by performing a custom check.
-    //Add 'implements DoCheck' to the class.
-    
+  ngDoCheck(): void 
+  {
+
   }
 
 
