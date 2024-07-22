@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContainerComponent } from './container/container.component';
-import { LayoutComponent } from './container/layout/layout.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerComponent,
-    LayoutComponent,
+    
     
   ],
   imports: [
