@@ -1,0 +1,10 @@
+<div class="card">
+    <ng-content select=".Header"></ng-content>
+    <div class="card-body">
+        <h3>This is Card body</h3>
+        <ng-content select=".Footer"></ng-content>        
+    </div>
+    <div class="card-footer">
+        <input type="button" value="Click me" (click)="onClickEventHappens()"/>
+    </div>
+</div>
