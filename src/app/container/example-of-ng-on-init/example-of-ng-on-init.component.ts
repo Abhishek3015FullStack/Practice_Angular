@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class ExampleOfNgOnInitComponent {
 
   name:string="Abhishek"
-ngOnInit(): void {
-
-  console.log('ngOnInit called');
-  
-}
+ngOnInit(): void 
+  {
+    this.name = "Abhishek Jain"
+    console.log('ngOnInit called');
+  }
 }

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ExampleOfContentAfterInitChildComponent {
 
+  name:string="Abhishek"
+  
+  ngAfterContentInit(): void {
+    //Called after ngOnInit when the component's or directive's content has been initialized.
+    //Add 'implements AfterContentInit' to the class.
+    console.log('ngAfterContentInit');
+  }
 }

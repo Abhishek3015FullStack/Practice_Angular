@@ -13,6 +13,11 @@ import { ExampleOfNgOnInitComponent } from './container/example-of-ng-on-init/ex
 import { ExampleOfNgOnInitChildComponent } from './container/example-of-ng-on-init/example-of-ng-on-init-child/example-of-ng-on-init-child.component';
 import { ExampleOfContentAfterInitComponent } from './container/example-of-content-after-init/example-of-content-after-init.component';
 import { ExampleOfContentAfterInitChildComponent } from './container/example-of-content-after-init/example-of-content-after-init-child/example-of-content-after-init-child.component';
+import { ExampleOfContentCheckedComponent } from './container/example-of-content-checked/example-of-content-checked.component';
+import { ExampleOfContentCheckedChildComponent } from './container/example-of-content-checked/example-of-content-checked-child/example-of-content-checked-child.component';
+import { FormsModule } from '@angular/forms';
+import { ExampleNgDoCheckComponent } from './container/example-ng-do-check/example-ng-do-check.component';
+import { ExampleNgDoCheckChildComponent } from './container/example-ng-do-check/example-ng-do-check-child/example-ng-do-check-child.component';
 
 
 
@@ -30,11 +35,16 @@ import { ExampleOfContentAfterInitChildComponent } from './container/example-of-
     ExampleOfNgOnInitChildComponent,
     ExampleOfContentAfterInitComponent,
     ExampleOfContentAfterInitChildComponent,
+    ExampleOfContentCheckedComponent,
+    ExampleOfContentCheckedChildComponent,
+    ExampleNgDoCheckComponent,
+    ExampleNgDoCheckChildComponent,
     
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
