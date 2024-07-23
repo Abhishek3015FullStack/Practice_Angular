@@ -18,6 +18,12 @@ import { ExampleOfContentCheckedChildComponent } from './container/example-of-co
 import { FormsModule } from '@angular/forms';
 import { ExampleNgDoCheckComponent } from './container/example-ng-do-check/example-ng-do-check.component';
 import { ExampleNgDoCheckChildComponent } from './container/example-ng-do-check/example-ng-do-check-child/example-ng-do-check-child.component';
+import { ExampleSibblings1Component } from './container/example-sibblings1/example-sibblings1.component';
+import { ExampleSibblings2Component } from './container/example-sibblings2/example-sibblings2.component';
+import { CustomDirectivesDirective } from './CustomDirectives/custom-directives.directive';
+import { ExampleSibblings3Component } from './container/example-sibblings3/example-sibblings3.component';
+import { ExampleSibblings4Component } from './container/example-sibblings4/example-sibblings4.component';
+
 
 
 
@@ -39,6 +45,12 @@ import { ExampleNgDoCheckChildComponent } from './container/example-ng-do-check/
     ExampleOfContentCheckedChildComponent,
     ExampleNgDoCheckComponent,
     ExampleNgDoCheckChildComponent,
+    ExampleSibblings1Component,
+    ExampleSibblings2Component,
+    CustomDirectivesDirective,
+    ExampleSibblings3Component,
+    ExampleSibblings4Component,
+
     
     
   ],

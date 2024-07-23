@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class ContainerComponent {
 
+  selectedData :string="";
+  ChagingDaata(event:any)
+  {
+    this.selectedData =event;
+    console.log(event+"conatiner is called")
+  }
+
+  selectedDateWrong:string="";
+
+  ChnageData1(event)
+  {
+    this.selectedDateWrong = event;
+  }
+  
 }
